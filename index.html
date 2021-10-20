@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<header>
+<link rel="stylesheet" href="css/main.css">
+</header>
+<body onload="restorelist()">
+
+<div id="myDIV" class="header">
+  <h2>To-Do</h2>
+    <p id="info"></p>
+	<p id="counter"></p>
+  <input type="text" id="myInput" placeholder="Your input...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+
+<ul id="myUL">
+  
+</ul>
+<div class = "header">
+<p> <a onclick="showall()">All</a> | <a onclick="showfavourite()">Only primary</p>
+<p> <a onclick="cleartasks()"> Clear tasks storage </a>
+</div>
+
+<script src="myscript.js"></script>
+
+</body>
+</html>
